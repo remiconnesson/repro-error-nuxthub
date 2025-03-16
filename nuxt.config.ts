@@ -1,11 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // https://nuxt.com/modules
-  modules: [
-    '@nuxthub/core',
-    '@nuxt/eslint',
-    '@nuxt/ui-pro'
-  ],
+  modules: ['@nuxthub/core', '@nuxt/eslint', '@nuxt/ui-pro', '@pinia/nuxt'],
 
   css: ['~/assets/css/main.css'],
 
