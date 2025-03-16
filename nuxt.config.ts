@@ -4,7 +4,10 @@ export default defineNuxtConfig({
   modules: [
     '@nuxthub/core',
     '@nuxt/eslint',
+    '@nuxt/ui-pro'
   ],
+
+  css: ['~/assets/css/main.css'],
 
   // https://devtools.nuxt.com
   devtools: { enabled: true },
